@@ -25,6 +25,35 @@ Route::get('/', function () {
     return view('website.ecommerce.index2');
 })->name('website.home');
 
+//
+//Route::get('/cart', function () {
+//    return view('website.ecommerce.cart');
+//})->name('website.cart');
+//
+//Route::get('/products', function () {
+//    return view('website.ecommerce.products');
+//});
+//
+//Route::get('/invoice', function () {
+//    return view('website.ecommerce.invoice');
+//});
+//
+//
+//Route::get('/product_details', function () {
+//    return view('website.ecommerce.product_details');
+//})->name('website.product.details');
+//
+//
+//Route::get('/checkout', function () {
+//    return view('website.ecommerce.checkout');
+//});
+//
+//Route::get('/wishlist', function () {
+//    return view('website.ecommerce.wishlist');
+//});
+//
+
+
 // admin
 Route::get('/admin', function () {
     return view('admin.index');
